@@ -40,7 +40,7 @@ public class dynamic_list {
             //some code to fill the dynamically
             //her döngüde map e eklemek için key ve value oluşur. kaç column varsa mesela 4 tane 4 e kadar ekleyecek. 1 den başlatmayı unutma i yi.
             for (int i = 1; i <= colCount; i++) {   //her column için döner vertical
-                row.put(rsmd.getColumnName(i),resultSet.getObject(i));
+                row.put(rsmd.getColumnName(i),resultSet.getObject(i)); //column name column value
 
             }
 
