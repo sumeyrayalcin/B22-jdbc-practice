@@ -53,6 +53,8 @@ public class dynamic_list {
 
         }
 
+
+        // print each loop inside to list
         for (Map<String, Object> row : queryData) {
 
             System.out.println(row.toString());
