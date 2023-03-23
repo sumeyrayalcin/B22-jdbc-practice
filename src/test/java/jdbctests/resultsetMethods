@@ -1,0 +1,8 @@
+Result Methods:
+- next() → move to next row
+- previous() → move to previous row
+- beforeFirst() → goes before the first row
+- afterLast() → goes after last row
+- getRow() → get the current row number
+- last() → move to last row
+- absolute() - goes specific row
